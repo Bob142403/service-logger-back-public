@@ -1,0 +1,50 @@
+{
+  "name": "service-logger",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "ts-node": "ts-node index.ts"
+  },
+  "imports": {
+    "vue": "https://unpkg.com/vue@3.3.4/dist/vue.esm-browser.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "dotenv": "^16.3.1",
+    "express": "^4.18.2",
+    "express-vue": "^5.16.0",
+    "jsonwebtoken": "^9.0.0",
+    "mysql": "^2.18.1",
+    "mysql2": "^3.4.0",
+    "nodemon": "^2.0.22",
+    "reflect-metadata": "^0.1.13",
+    "socket.io": "^4.7.1",
+    "socket.io-client": "^4.7.1",
+    "ts-node": "^10.9.1",
+    "typeorm": "^0.3.17",
+    "vue": "^3.3.4",
+    "vue-loader": "^17.2.2",
+    "vue-router": "^4.2.2",
+    "vue-template-compiler": "^2.7.14"
+  },
+  "devDependencies": {
+    "@types/cors": "^2.8.13",
+    "@types/express": "^4.17.17",
+    "@types/jsonwebtoken": "^9.0.2",
+    "@types/node": "^20.3.1",
+    "@typescript-eslint/eslint-plugin": "^5.60.0",
+    "@typescript-eslint/parser": "^5.60.0",
+    "babel-core": "^6.26.3",
+    "babel-eslint": "^10.1.0",
+    "babel-preset-env": "^1.4.0",
+    "eslint": "^8.43.0",
+    "eslint-config-prettier": "^8.8.0",
+    "eslint-plugin-prettier": "^4.2.1",
+    "prettier": "2.8.8",
+    "typescript": "^5.1.3"
+  }
+}
